@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/대소고_대나무숲.iml" filepath="$PROJECT_DIR$/.idea/modules/대소고_대나무숲.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/대소고_대나무숲.data.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/대소고_대나무숲.domain.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/대소고_대나무숲.presentation.unitTest.iml" />
+    </modules>
+  </component>
+</project>

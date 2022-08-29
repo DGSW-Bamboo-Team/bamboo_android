@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "kr.hs.dgsw.bamboo"
+        minSdk 24
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation "androidx.core:core-ktx:$Core_version"
+    implementation "androidx.appcompat:appcompat:$Appcompat_version"
+    implementation "com.google.android.material:material:$Material_version"
+    implementation "androidx.constraintlayout:constraintlayout:$Constraint_version"
+    testImplementation "junit:junit:$Junit_version"
+    androidTestImplementation "androidx.test.ext:junit:$TestJunit_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$Espresso_version"
+
+    // Retrofit2 + OkHttp3
+    implementation "com.squareup.okhttp3:logging-interceptor:$OkHttp3_version"
+    implementation "com.squareup.retrofit2:retrofit:$Retrofit2_version"
+    implementation "com.squareup.retrofit2:converter-gson:$Retrofit2_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava3:$Retrofit2_version"
+
+    // RxJava3 + RxAndroid
+    implementation "io.reactivex.rxjava3:rxjava:$RxJava3_version"
+    implementation "io.reactivex.rxjava3:rxandroid:$RxAndroid_version"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$Gson_version"
+
+    // DataStore
+    implementation "androidx.datastore:datastore-preferences:$DataStore_version"
+    implementation "androidx.datastore:datastore-core:$DataStore_version"
+
+}
